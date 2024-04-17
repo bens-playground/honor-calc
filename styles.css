@@ -1,0 +1,113 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #364A60;
+    /* Navy blue background */
+    color: #ffffff;
+    /* White text color */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.points-sections {
+    display: flex;
+    /* Use flexbox for layout */
+}
+
+.points-section {
+    flex: 1;
+    /* Distribute available space evenly among sections */
+    margin-right: 20px;
+    /* Add some space between sections */
+}
+
+/* Additional styling for each section */
+.justice-points,
+.honor-points,
+.gold-points {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.section-image {
+    padding-top: 20px;
+    /* Adjust the value as needed */
+}
+
+.justice-points {
+    background-color: #273747;
+    /* Darker navy blue background */
+}
+
+.gold-points {
+    background-color: #273747;
+    /* Dark brown background */
+}
+
+.honor-points {
+    background-color: #273747;
+    /* Darker blue background */
+}
+
+.justice-points h2,
+.gold-points h2,
+.honor-points h2 {
+    margin-top: 0;
+    color: #ffffff;
+    /* White text color */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    /* White text color */
+}
+
+.input-with-display {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Align items vertically */
+}
+
+.form-group input[type="text"] {
+    width: calc(100% - 10px);
+    /* Adjust width to fit within the container */
+    padding: 6px;
+    border: 1px solid #000000;
+    /* Black border */
+    border-radius: 4px;
+    background-color: #2A3A4C;
+    /* Darker navy blue background */
+    color: #ffffff;
+    /* White text color */
+}
+
+/* Additional styling for character count spans */
+#justice-char-count,
+#honor-char-count,
+#gold-char-count {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    /* White text color */
+}
+
+.display {
+    margin-left: 10px;
+    /* Add space between input and display */
+}
